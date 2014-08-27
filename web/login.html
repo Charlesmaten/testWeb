@@ -12,7 +12,11 @@ and open the template in the editor.
     </head>
     <body>
         <div>TODO write content</div>
-        <input type="text" name="first" placeholder="First name"/>
-        <input type="text" name="last" placeholder="Last name"/>
+        <form action="#" method="POST">
+        <p><input type="text" name="first" placeholder="First name"/></p>
+        <p><input type="text" name="last" placeholder="Last name"/></p>
+        <p><input type="hidden" name="hidden" value="12345678"/></p>
+        <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
